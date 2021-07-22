@@ -1,20 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Birthday wishes</title>
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script>
 
-<title>C81</title>
-<link rel="stylesheet" type="text/css" href="C81style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 </head>
-<body class="body_backgorund">
+<body class="body_backgorund" onload="new_image">
+	<center>
+		<br><br>
+		<!--- Create canvas --->
+		<div class="travel_mainDiv">
+			<video width="600" height="400" controls>
+				<source src="Devi.mp4" type="video/mp4">
+				<source src="movie.ogg" type="video/ogg">
+			  </video>
 
-<center>
-	<h1>My First Canvas</h1>
-	<canvas id="mycanvas" width="800" height="600">
-	</canvas>
-	<br>
-</center>
+			<h1 style="font-family:Algerian" style="font-size:1000%;">Happy Birthday Davansh</h1>
+
+			<hr>
+
+			<h5 class="font-style"> </h5>
+
+			<p class="text-muted text-left">  </p>
+
+		</div>
+		<br>
+		<!--- Create Bootstrap button --->
+		<button class="btn btn-warning btn-lg"
+		onclick="playsound()">We wish you a very happy birthday</button>
+	</center>
+	
 
 
-<script src="C81main.js"></script>
+	
+	<audio id="myAudio" src="bdayaudio.mp3"></audio>
+	<script src="main.js"></script>
 </body>
 </html>
